@@ -5,7 +5,6 @@ int main() {
     DIR *dir;
     dir = opendir(dirpath);
     struct dirent *entry;
-    entry = readdir(dir);
 
     printf("Statistics for directory:%s\n", dirpath);
 
